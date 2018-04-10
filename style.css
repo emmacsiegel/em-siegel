@@ -1,0 +1,177 @@
+/********GLOBAL STYLES******/
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    padding: 0;
+    background-color: #FCFCFC;
+    border: 15px solid #eaeaea;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    color: #383838;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 14px;
+    letter-spacing: 0.36px;
+}
+
+p a {
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 54px;
+    letter-spacing: 0.16px;
+    font-weight: 900;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 18px;
+    letter-spacing: 0.72px;
+    font-weight: 800;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #aaaaaa;
+    letter-spacing: 0.24px;
+}
+
+h4 {
+    font-size: 16px;
+    letter-spacing: 0.72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/********LANDING*******/
+
+
+.landing .hero {
+    max-width: 850px;
+    margin: auto;
+    display: inline-block;
+}
+
+.hero-content {
+    float: left;
+    width: 440px;
+}
+
+.hero-img {
+    float: right;
+    width: 180px;
+    padding-left: 100px;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.landing .footer {
+    margin: 25px 0;
+
+}
+
+.landing .title {
+    width: 150px;
+}
+
+
+/********SECTIONS*******/
+
+.sections {
+    z-index: 999;
+    margin: 50px;
+}
+
+.sections a {
+    color: #111;
+}
+
+.footer {
+    margin: 50px 0;
+
+}
+
+/********FOOTER*******/
+
+.footer > .social-media div {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.footer > .social-media div:last-child {
+    padding-right: 0px;
+}
+
+.footer > .social-media div > a > i {
+    color: #6c6c6c;
+}
+
+.footer > .social-media div > a > i:hover {
+    opacity: .5;
+}
+
+
+
+/********CONTENT*******/
+
+.hero {
+    padding: 50px 0;
+}
+
+.content {
+    margin: auto;
+    max-width: 600px;
+    z-index: 9999;
+}
+
+.comic {
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.collab {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 830px) {
+    .hero {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sections {
+        margin: 25px;
+    }
+}
