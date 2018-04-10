@@ -1,5 +1,7 @@
 /********GLOBAL STYLES******/
 
+* {box-sizing: border-box;}
+
 body {
     font-family: 'Lato', sans-serif;
     margin: auto;
@@ -8,10 +10,6 @@ body {
     border: 15px solid #eaeaea;
 }
 
-h1,
-h2,
-h3,
-h4,
 p,
 a {
     color: #383838;
@@ -30,72 +28,38 @@ p a {
     font-weight: 400;
 }
 
-h1 {
-    font-size: 54px;
-    letter-spacing: 0.16px;
-    font-weight: 900;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-}
-
-h2 {
-    font-size: 18px;
-    letter-spacing: 0.72px;
-    font-weight: 800;
-    margin-top: 0;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 300;
-    color: #aaaaaa;
-    letter-spacing: 0.24px;
-}
-
-h4 {
-    font-size: 16px;
-    letter-spacing: 0.72px;
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 26px;
-    margin: 0;
-    padding-bottom: 10px;
-}
-
 a {
     cursor: pointer;
 }
 
 
 /********LANDING*******/
-
+.landing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
 
 .landing .hero {
     max-width: 850px;
-    margin: auto;
-    display: inline-block;
-}
-
-.hero-content {
-    float: left;
-    width: 440px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 440px 180px;
 }
 
 .hero-img {
-    float: right;
-    width: 180px;
-    padding-left: 100px;
+	display: inline-block;
 }
 
-.hero-img img{
+.hero-img img {
     width: 100%;
+	max-width: 180px;
+	text-align: right;
 }
 
 .landing .footer {
     margin: 25px 0;
-
 }
 
 .landing .title {
@@ -168,6 +132,18 @@ img {
     .hero {
         padding: 0;
     }
+	
+	.landing .hero {
+		grid-gap: 0px;
+		grid-template-columns: 100%;
+	}
+	
+	.hero-img img {
+    	width: 100%;
+		max-width: 180px;
+		float: right;
+	}
+	
 }
 
 @media screen and (max-width: 576px) {
