@@ -39,6 +39,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	padding: 50px;
+	min-height: 100%;
 }
 
 .landing .hero {
