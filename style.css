@@ -49,7 +49,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
-    padding-bottom: 60px; 
+    padding-bottom: 60px;
   }
 }
 
@@ -223,6 +223,7 @@ img {
   .portfolio-media-content {
     margin-top: 0;
     margin-lefT: 24px;
+    flex: 1;
   }
 }
 
