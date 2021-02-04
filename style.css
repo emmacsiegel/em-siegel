@@ -157,6 +157,10 @@ img {
   font-weight: bold;
 }
 
+.portfolio-media-tag a {
+  color: #757575;
+}
+
 .portfolio-media-title {
   font-size: 20px;
   margin: 0 0 10px;
